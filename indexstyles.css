@@ -1,7 +1,6 @@
 
 *{border-radius: 4px;}
 
-  body {margin: 0;}
 
 .topfloat{
     position: -webkit-sticky; /* Safari */
@@ -32,13 +31,10 @@ ul.topnav li a.active {background-color: #4CAF50;}
   
 ul.topnav li.right {float: right;}
   
-  @media screen and (max-width: 600px) {
-    ul.topnav li.right, 
-    ul.topnav li {float: none;}
-  }
-
+  
 body {
-  font-size: 20px;
+  font-size: 14px;
+  margin: 0;
 }
 li .dropbtn {
     display: inline-block;
@@ -56,7 +52,10 @@ li .dropbtn {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
-  
+  #imagehead{
+    width:316px;
+    height:80px;
+  }
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
@@ -93,4 +92,35 @@ li .dropbtn {
   align-items: center;
   text-align: center;
   min-height: 100vh;
+}
+
+
+
+@media screen and (max-width: 800px) {
+  #imagehead{
+    width:200px ;
+    height:50px;
+  }
+  .dropdown-content a{
+    font-size:12px;
+    padding: 07px 10px;
+
+  }
+  ul.topnav li a {
+    font-size:12px;
+    padding: 07px 10px;}  
+}
+@media screen and (max-width: 1050px) and (min-width:801px) {
+  #imagehead{
+    width:250px ;
+    height:60px;
+  }
+  .dropdown-content a{
+    font-size:16px;
+    padding: 12px 14px;
+
+  }
+  ul.topnav li a {
+    font-size:16px;
+    padding: 10px 12px;}  
 }

@@ -2,7 +2,7 @@ document.write('\
 \
 <div class="topfloat">\
 <div class="container">\
-  <div class="image"><img src="HOSPIMAX.jpg" width="316" height= "80" alt="Hospimax Consultancy"  title=" Hospimax Consultancy"></div>\
+  <div class="image"><img src="HOSPIMAX.jpg" id="imagehead" alt="Hospimax Consultancy"  title=" Hospimax Consultancy"></div>\
   <div>\
 \
 <ul class="topnav">\
