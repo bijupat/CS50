@@ -102,13 +102,12 @@ li .dropbtn {
     height:50px;
   }
   .dropdown-content a{
-    font-size:12px;
-    padding: 07px 10px;
-
+    font-size:14px;
+    padding: 06px 08px;
   }
   ul.topnav li a {
-    font-size:12px;
-    padding: 07px 10px;}  
+    font-size:14px;
+    padding: 06px 08px;}  
 }
 @media screen and (max-width: 1050px) and (min-width:801px) {
   #imagehead{

@@ -9,7 +9,11 @@
       let name = document.querySelector("#name").value;
       alert('Hello ' + name + '! We will revert soon. Thanks !');
     }
-    
+  
+ 
+      
+   
+
   </script>
   <style>
     
@@ -39,8 +43,12 @@
 * {
   box-sizing: border-box;
 }
+#inquiry{
+    height:300px;
 
-input[type=text], select, textarea {
+  }
+
+input[type=text], input[type=tel], input[type=email], select, textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -105,6 +113,10 @@ input[type=submit]:hover {
     margin-right:50px;
 
   }
+  #inquiry{
+    height:110px;
+
+  }
   }
 
 </style>
@@ -118,7 +130,7 @@ input[type=submit]:hover {
       <label for="name">Name</label>
     </div>
     <div class="col-75">
-      <input type="text" id="name" name="name" placeholder="Your name..">
+      <input type="text" id="name" name="name" required pattern="[a-zA-Z][A-z0-9À-ž\s]{2,}" title="Name" oninvalid="this.setCustomValidity('Enter Name')" oninput="this.setCustomValidity('')" placeholder="Your name..">
     </div>
   </div>
   <div class="row">
@@ -126,7 +138,7 @@ input[type=submit]:hover {
       <label for="mobileno">Mobile No</label>
     </div>
     <div class="col-75">
-      <input type="text" id="mobileno" name="mobileno" placeholder="Your Mobile No..">
+      <input type="tel" id="mobileno" required  pattern="[0-9]{10}" oninvalid="this.setCustomValidity('Enter Valid 10 digit Mobile ')" oninput="this.setCustomValidity('')"  name="mobileno" placeholder="Your Mobile No..">
     </div>
   </div>
   <div class="row">
@@ -134,7 +146,7 @@ input[type=submit]:hover {
       <label for="email">Email Address</label>
     </div>
     <div class="col-75">
-      <input type="text" id="mobileno" name="mobileno" placeholder="Your Mobile No..">        
+      <input type="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" oninvalid="this.setCustomValidity('Enter E Mail')" oninput="this.setCustomValidity('')" id="Email" name="Email" placeholder="Your Email ..">        
     </div>
   </div>
   <div class="row">
@@ -142,9 +154,13 @@ input[type=submit]:hover {
       <label for="inquiry">Inquiry for</label>
     </div>
     <div class="col-75">
-      <textarea id="inquiry" name="inquiry" placeholder="Give Details.." style="height:200px"></textarea>
+      <textarea id="inquiry" name="inquiry" placeholder="Give Details.."></textarea>
     </div>
   </div>
+  <div class="col-75">
+    <p class="privacycheck"><input type="checkbox" required oninvalid="this.setCustomValidity('Please Accept Terms')" onvalid="this.setCustomValidity('')" id="checkbox" name="subscribed[]" value="">
+      I agree to receive communication from HospiMax.<br>Refer <a href="#" rel="nofollow">HospiMax privacy policy</a> to know more about how we maintain privacy about your data.</p>
+    </div>
   <div class="row">
     <input type="submit" value="Submit">
   </div>
