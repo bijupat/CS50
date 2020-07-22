@@ -8,29 +8,25 @@ document.write('\
 <ul class="topnav">\
   <li><a class="active" href="index.html">Home</a></li>\
   <li class="dropdown">\
-    <a href="javascript:void(0)" class="dropbtn">Dropdown</a>\
+    <a href="javascript:void(0)" class="dropbtn">Services</a>\
     <div class="dropdown-content">\
-      <a href="layout.html">Link 1</a>\
-      <a href="#">Link 2</a>\
-      <a href="#">Link 3</a>\
+      <a href="user-defined.html">User-defined system development for healthcare units</a>\
+      <a href="appdev.html">Application Development & Support</a>\
+      <a href="intauto.html">Intelligent Automation in Healthcare</a>\
+      <a href="workimp.html">Workflow Implementation for Diagnostics centers </a>\
+      <a href="telehealth.html">Tele-health & Virtual Health system development</a>\
+      <a href="qa.html">Quality assurance for new or existing healthcare system</a>\
     </div>\
   </li>\
   <li class="dropdown">\
-    <a href="javascript:void(0)" class="dropbtn">Dropdown</a>\
+    <a href="javascript:void(0)" class="dropbtn">Our Team</a>\
     <div class="dropdown-content">\
       <a href="error.html">Link 1</a>\
       <a href="#">Link 2</a>\
       <a href="#">Link 3</a>\
     </div>\
   </li>\
-  <li class="dropdown">\
-    <a href="javascript:void(0)" class="dropbtn">Dropdown</a>\
-    <div class="dropdown-content">\
-      <a href="#">Link 1</a>\
-      <a href="#">Link 2</a>\
-      <a href="#">Link 3</a>\
-    </div>\
-  </li>\
+  \
   <li class="right"><a href="inquiry.html">Send Inquiry</a></li>\
   <li class="right"><a href="contactus.html">Contact Us</a></li>\
 </ul>\
