@@ -7,7 +7,7 @@
     
     body {
     /* Location of the image */
-    background-image: url(contact-us.jpg);
+    background-image: url(bgservices.jpg);
     
     /* Background image is centered vertically and horizontally at all times */
     background-position: center center;
@@ -21,60 +21,66 @@
     
     /* This is what makes the background image rescale based
        on the container's size */
-    background-size: 100% 80%;
+    background-size: 100% 100%;
     
     /* Set a background color that will be displayed
        while the background image is loading */
     background-color: #464646;
   }
+p{
+  padding-left: 1em;
+  padding-right:0em;
+  padding-top:0em;
+  padding-bottom:0em;
+}
  
 *{
   box-sizing: border-box;
 }
 .containerc{
-    padding:20px;
-    width:400px;
-    font-size: 25px;
+    padding:10px;
+    width:auto;
+    font-size: 20px;
     font-family:Garamond, Verdana, Tahoma, sans-serif;
     background-color:#523321;
     color:wheat;
-    border-radius: 10px;
+    border-radius: 5px;
 
   }
 .leftc {
-    margin-top:125px;
+    margin-top:25px;
     float:left;
-    text-align: left;
-    margin-left: 50px;
-    width:30%; /* The width is 20%, by default */
+    text-align: justify;
+    margin-left: 10px;
+    width:45%; /* The width is 20%, by default */
   }
   .rightc{
     float:right;
-    margin-top:125px;
-    width:30%; /* The width is 25%, by default */
-    text-align: left;
-    margin-right:50px;
+    margin-top:25px;
+    width:45%; /* The width is 25%, by default */
+    text-align: justify;
+    margin-right:10px;
   }
 /* Use a media query to add a break point at 992px: */
 @media screen and (max-width:1200px) {
     .leftc, .rightc {
       width:39%; /* The width is 100%, when the viewport is 768px or smaller */
-      margin-right:1px;
+      margin-right:5px;
       margin-left:50px;
       float:left;
-      margin-top: 150px;
+      margin-top: 5px;
     }
     .containerc{
-      width:400px ;
+      width:atuo ;
     }
     
   }
   @media screen and (max-width:900px) {
     .leftc, .rightc {
       width:80%; /* The width is 100%, when the viewport is 768px or smaller */
-      margin-right:none;
-      margin-left:none;
-      float:none;
+      margin-right:2px;
+      margin-left:15px;
+      float:left;
       margin-top: 10px;
     }
     .containerc{
@@ -88,17 +94,49 @@
 </head>
 <body>
   <script src="extend.js"></script>
+       
   <div class= "leftc"> 
-    <div class="containerc" >
-           user defined
- 
+    <div class="containerc">
+     <h4>Why Build Custom Healthcare Software?</h4>
+      <p> &emsp; A one-size-fits-all approach doesn’t work for traditional software, and healthcare software is no 
+        different. That’s why most health organizations turn their attention to custom healthcare software which 
+        best suits their exact needs and challenges.</p>
+      <p> &emsp; No matter the choice, the primary aim of developing custom healthcare software is to create a unified 
+        platform for medical information which is Reliable and scalable.</p>
+      <p> &emsp; Custom healthcare software can help by enhancing accessibility, productivity, portability, and scalability.
+        Building appealing, versatile, and high-performance healthcare software is different from traditional business 
+        software. It calls for a deep knowledge of not only the technology itself but also interoperability, regulatory, 
+        and security requirements, as well as user needs.</p>
+      <p> &emsp; With that in mind, you will need to partner with a reliable development agency that builds custom healthcare 
+        software. Make sure they have proper certifications, competencies, skills, and strong domain knowledge.
+      When expertly designed it can help improve response times, increase data management accuracy and security, and 
+      drive down healthcare costs.</p>
     </div>
-  </div>              
+  </div>
   <div class= "rightc"> 
-    <div class="containerc" style="color: wheat;" >
-      <a style="color: wheat;" href="tel:+917948114799">Phone: 079-48114799</a><br>
-      <a style="color: wheat;" href="tel:+919909016867">Mobile:+91 99090 16867</a><br><br>
-      Email: <a style="color: wheat;" href="mailto:bijupat@yahoo.com">bijupat@yahoo.com</a>
+    <div class="containerc">
+      <h4>Types of Medical Software:</h4>
+      <p>
+        Based on its application medical software can be :
+        <ol type="I">
+          <li>Medical Manager Software - Allows staff to address all aspects of business and operational management.</li>
+          <li>Medical Device Software - There are three broad types of medical device software: 
+            <ol type="i">
+              <li>Software used in maintenance, upkeep, or manufacture of a medical device</li>
+              <li>Sin a Medical Device (SiMD)</li>
+              <li>Software as a Medical Device (SaMD)</li>
+            </ol>
+          </li>
+          <li>Medical Office Software - Simplifies operational aspects of medical practice and is built to manage 
+            and handle tasks that will reduce or eliminate office paperwork.</li>
+          <li>Medical Imaging Software – Help to analyze complex images to deliver more accurate diagnosis and 
+            treatment of disease.</li>
+          <li>Medical Scheduling Software -Manages scheduling effectively and efficiently.</li>
+          <li>Medical Voice Recognition Software - Voice recognition tech is a convenient and increasingly essential 
+            tool that helps translate speech into written text, helping medical practitioners skip handwritten notes.
+            It improves documentation by a huge margin.</li>
+        </ol>
+      </p>
     </div>
   </div>     
 </body>
