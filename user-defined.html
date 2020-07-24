@@ -2,101 +2,13 @@
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="indexstyles.css" rel="stylesheet">
-  <style>
-    
-    body {
-    /* Location of the image */
-    background-image: url(bgservices.jpg);
-    
-    /* Background image is centered vertically and horizontally at all times */
-    background-position: center center;
-    
-    /* Background image doesn't tile */
-    background-repeat: no-repeat;
-    
-    /* Background image is fixed in the viewport so that it doesn't move when 
-       the content's height is greater than the image's height */
-    background-attachment: fixed;
-    
-    /* This is what makes the background image rescale based
-       on the container's size */
-    background-size: 100% 100%;
-    
-    /* Set a background color that will be displayed
-       while the background image is loading */
-    background-color: #464646;
-  }
-p{
-  padding-left: 1em;
-  padding-right:0em;
-  padding-top:0em;
-  padding-bottom:0em;
-}
- 
-*{
-  box-sizing: border-box;
-}
-.containerc{
-    padding:10px;
-    width:auto;
-    font-size: 20px;
-    font-family:Garamond, Verdana, Tahoma, sans-serif;
-    background-color:#523321;
-    color:wheat;
-    border-radius: 5px;
-
-  }
-.leftc {
-    margin-top:25px;
-    float:left;
-    text-align: justify;
-    margin-left: 10px;
-    width:45%; /* The width is 20%, by default */
-  }
-  .rightc{
-    float:right;
-    margin-top:25px;
-    width:45%; /* The width is 25%, by default */
-    text-align: justify;
-    margin-right:10px;
-  }
-/* Use a media query to add a break point at 992px: */
-@media screen and (max-width:1200px) {
-    .leftc, .rightc {
-      width:39%; /* The width is 100%, when the viewport is 768px or smaller */
-      margin-right:5px;
-      margin-left:50px;
-      float:left;
-      margin-top: 5px;
-    }
-    .containerc{
-      width:atuo ;
-    }
-    
-  }
-  @media screen and (max-width:900px) {
-    .leftc, .rightc {
-      width:80%; /* The width is 100%, when the viewport is 768px or smaller */
-      margin-right:2px;
-      margin-left:15px;
-      float:left;
-      margin-top: 10px;
-    }
-    .containerc{
-      width:auto ;
-      font-size:medium;
-    }
-    
-  }
-  
-</style> 
-</head>
+  <link href="menustyles.css" rel="stylesheet">
+  <link href="bodystyle.css" rel="stylesheet">
+ </head>
 <body>
   <script src="extend.js"></script>
-       
-  <div class= "leftc"> 
-    <div class="containerc">
+   
+  <div class="box"> 
      <h4>Why Build Custom Healthcare Software?</h4>
       <p> &emsp; A one-size-fits-all approach doesn’t work for traditional software, and healthcare software is no 
         different. That’s why most health organizations turn their attention to custom healthcare software which 
@@ -111,10 +23,8 @@ p{
         software. Make sure they have proper certifications, competencies, skills, and strong domain knowledge.
       When expertly designed it can help improve response times, increase data management accuracy and security, and 
       drive down healthcare costs.</p>
-    </div>
   </div>
-  <div class= "rightc"> 
-    <div class="containerc">
+  <div class="box"> 
       <h4>Types of Medical Software:</h4>
       <p>
         Based on its application medical software can be :
@@ -137,7 +47,6 @@ p{
             It improves documentation by a huge margin.</li>
         </ol>
       </p>
-    </div>
   </div>     
 </body>
 </html>
