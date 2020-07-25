@@ -13,9 +13,9 @@ document.write('\
       <a href="user-defined.html">Custom healthcare software for healthcare units</a>\
       <a href="appdev.html">Application Development & Support</a>\
       <a href="intauto.html">Intelligent Automation in Healthcare</a>\
-      <a href="workimp.html">Workflow Implementation for Diagnostics centers </a>\
+      <a href="workimp.html">Custom Diagnostics center management system </a>\
       <a href="telehealth.html">Tele-health & Virtual Health system development</a>\
-      <a href="telehealth.html">Website and web application development</a>\
+      <a href="website.html">Website and web application development</a>\
       <a href="qa.html">Quality assurance for new or existing healthcare system</a>\
     </div>\
   </li>\
