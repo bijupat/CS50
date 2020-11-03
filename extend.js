@@ -22,9 +22,8 @@ document.write('\
   <li class="dropdown">\
     <a href="javascript:void(0)" class="dropbtn">Our Team</a>\
     <div class="dropdown-content">\
-      <a href="error.html">Link 1</a>\
-      <a href="#">Link 2</a>\
-      <a href="#">Link 3</a>\
+      <a href="error.html">Promoter</a>\
+      <a href="error.html">Core Team</a>\
     </div>\
   </li>\
   \
